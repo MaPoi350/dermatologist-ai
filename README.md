@@ -12,6 +12,7 @@ The provided data by Udacity was already seperated in <a href="https://s3-us-wes
   - 5 Epochs were used
   
 ## Results
+![alt text](https://github.com/MaPoi350/dermatologist-ai/blob/main/assets/ROC_Curvature.png) 
+![alt text](https://github.com/MaPoi350/dermatologist-ai/blob/main/assets/Confusion_Matrix.png)
 
- 
  
