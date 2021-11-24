@@ -12,7 +12,35 @@ The provided data by Udacity was already seperated in <a href="https://s3-us-wes
   - 5 Epochs were used
   
 ## Results
+The scores of the 3 categories are:
+  
+Category 1 Score: 0.730
+  
+Category 2 Score: 0.825
+  
+Category 3 Score: 0.778
+  
+In Task 1 (Category 1) the ROC curve describes the ability of the model to distinguish between malignant melanoma and the benign skin lesions (nevus, seborrheic keratosis). In Task 2 (Category 2)  the ROC curves measures the ability of the model to distinguish between melanocytic and keratinocytic skin lesions. Category describes the average of Category 1 and 2.
+  
+The ROC curve describes the accuracy of the trained model:
+  
 ![alt text](https://github.com/MaPoi350/dermatologist-ai/blob/main/assets/ROC_Curvature.png) 
+  
+The Confusion Matrix describes the probablities of False/True Positives and False/True Negatives:
+  
 ![alt text](https://github.com/MaPoi350/dermatologist-ai/blob/main/assets/Confusion_Matrix.png)
+  
+## Conclusion:
+
+An average result of 0,778 is better than expected with only 5 Epochs. Nevertheless, the weak part of this result is the high false negative result of 0,68 (as documented in the confusion matrix). This results in the fact that people with a malignant melanom are classified as healthy, with the consequence, that they wouldn't go to the doctor and in the worst case die.
+
+A better classifier should minimize the false negative results, even if the false positive results increase. A healthy patient, which is diagnosed with melanoma, goes to the doctor and will be then diagnosed as healthy. This results only in wasted time and is preferred than the false negative result.
+
+One way to reduce the false negative probability is a better classifier, with another network, a higher epoch rate or another criterion/optimizer. Another way is an increase of the estimated result percentage, when a benign melanom is classified (e.g. an increase from min 0,5 to min 0,6 or min 0,7).
+
+Last but not least, additional data could be taken into account like age or sex.
+
+The influence of different variables to improve the classifier shall be further investigated within this project.
+
 
  
