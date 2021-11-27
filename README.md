@@ -10,6 +10,7 @@ The provided data by Udacity was already seperated in <a href="https://s3-us-wes
   - Criterion: NLLLOSS
   - Optimizer: Adam
   - 5 Epochs were used
+  - A learning rate of 0.0001 was used for the training
   
 ## Results
 The scores of the 3 categories are:
