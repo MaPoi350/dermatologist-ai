@@ -37,7 +37,9 @@ An average result of 0,778 is better than expected with only 5 Epochs. Neverthel
 
 A better classifier should minimize the false negative results, even if the false positive results increase. A healthy patient, which is diagnosed with melanoma, goes to the doctor and will be then diagnosed as healthy. This results only in wasted time and is preferred than the false negative result.
 
-One way to reduce the false negative probability is a better classifier, with another network, a higher epoch rate or another criterion/optimizer. Another way is an increase of the estimated result percentage, when a benign melanom is classified (e.g. an increase from min 0,5 to min 0,6 or min 0,7). Many training images are polluted by markers or other parts not related to Skin_Cancer, which should be removed.
+One way to reduce the false negative probability is a better classifier, with another network, a higher epoch rate or another criterion/optimizer. Another way is an increase of the estimated result percentage, when a benign melanom is classified (e.g. an increase from min 0,5 to min 0,6 or min 0,7). 
+  
+Another reason is the data quality. Many training images are polluted by markers or other parts not related to Skin_Cancer, which should be removed. And the Nevus images in the training folder are 3,5 times higher than the melanoma images. This explains, why we have a high benign rate in the confusion matrix. The training data should be better balanced.  
 
 Last but not least, additional data could be taken into account like age or sex.
 
