@@ -10,7 +10,7 @@ The provided data by ISIC and Udacity was already seperated in <a href="https://
   - Criterion: NLLLOSS
   - Optimizer: Adam
   - 5 Epochs were used
-  - A learning rate of 0.0001 was used for the training
+  - A learning rate of 0.001 was used for the training
   
 ## Results
 The scores of the 3 categories are:
@@ -21,7 +21,7 @@ Category 2 Score: 0.825
   
 Category 3 Score: 0.778
   
-In Task 1 (Category 1) the ROC curve describes the ability of the model to distinguish between malignant melanoma and the benign skin lesions (nevus, seborrheic keratosis). In Task 2 (Category 2)  the ROC curves measures the ability of the model to distinguish between melanocytic and keratinocytic skin lesions. Category describes the average of Category 1 and 2.
+In Task 1 (Category 1) the ROC curve describes the ability of the model to distinguish between malignant melanoma and the benign skin lesions (nevus, seborrheic keratosis). In Task 2 (Category 2)  the ROC curves measures the ability of the model to distinguish between melanocytic and keratinocytic skin lesions. Category 3 describes the average of Category 1 and 2.
   
 The ROC curve describes the accuracy of the trained model:
   
