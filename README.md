@@ -3,7 +3,7 @@ The objective is to create an algorithm for an app that classifies images of dif
 
 ## Data
 All images of Melanoma, Nevus and Seborherric Keratoses were provided within the  <a href="https://challenge.kitware.com/#challenge/583f126bcad3a51cc66c8d9a">2017 ISIC Challenge on Skin Lesion Analysis Towards Melanoma Detection</a>.
-The provided data by ISIC and Udacity was already seperated in <a href="https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/train.zip">Training Data</a>,<a href="https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/valid.zip">Validation Data</a>  and <a href="https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/test.zip>Test Data</a>.
+The provided data by ISIC and Udacity was already seperated in <a href="https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/train.zip">Training Data</a>,<a href="https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/valid.zip">Validation Data</a>  and <a href="https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/test.zip">Test Data</a>.
 
 ## Methods and Variables of the classifier
   - A pretrained VGG16 model with an adapted 2 layer classifier and a 0,15 dropout function was used
